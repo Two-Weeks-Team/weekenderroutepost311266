@@ -80,10 +80,10 @@ def _normalize_inference_payload(payload: object) -> dict[str, object]:
     }
 
 
-APP_NAME = "Weekender Route Postcards"
-APP_TAGLINE = "Build a visually rich trip-planning service that converts a travel inspiration video into an itinerary, route cards, bac"
-KEY_FEATURES = ["route card", "district stop", "backup plan", "budget cue"]
-PROOF_POINTS = ["day-by-day route sequence", "highlight stops", "weather or timing fallback", "first fold already looks like a travel artifact"]
+APP_NAME = "weekender-route-postcards"
+APP_TAGLINE = "Travel Weekender Planning"
+KEY_FEATURES = ["Guided workflow", "Insights panel", "Saved sessions"]
+PROOF_POINTS = ["Shareable outputs", "Visible recent activity", "Clear next actions"]
 
 
 def build_plan(query: str, preferences: str) -> dict:
